@@ -1,0 +1,84 @@
+[
+  {
+    "name": "Arbitrum One",
+    "stage": 1,
+    "proofSystem": "fraud",
+    "permissionlessProving": true,
+    "exitWindowDays": 10,
+    "upgrades": {
+      "type": "securityCouncil",
+      "threshold": 9,
+      "members": 12
+    },
+    "dataAvailability": "ethereumBlobs",
+    "forceInclusion": true
+  },
+  {
+    "name": "OP Mainnet",
+    "stage": 1,
+    "proofSystem": "fraud",
+    "permissionlessProving": true,
+    "exitWindowDays": 0,
+    "upgrades": {
+      "type": "securityCouncil",
+      "threshold": 10,
+      "members": 13
+    },
+    "dataAvailability": "ethereumBlobs",
+    "forceInclusion": true
+  },
+  {
+    "name": "Base",
+    "stage": 1,
+    "proofSystem": "fraud",
+    "permissionlessProving": true,
+    "exitWindowDays": 0,
+    "upgrades": {
+      "type": "securityCouncil",
+      "threshold": 8,
+      "members": 11
+    },
+    "dataAvailability": "ethereumBlobs",
+    "forceInclusion": true
+  },
+  {
+    "name": "ZKsync Era",
+    "stage": 0,
+    "proofSystem": "validity",
+    "permissionlessProving": false,
+    "exitWindowDays": 5,
+    "upgrades": {
+      "type": "securityCouncil",
+      "threshold": 6,
+      "members": 8
+    },
+    "dataAvailability": "ethereumBlobs",
+    "forceInclusion": false
+  },
+  {
+    "name": "Starknet",
+    "stage": 1,
+    "proofSystem": "validity",
+    "permissionlessProving": false,
+    "exitWindowDays": 7,
+    "upgrades": {
+      "type": "securityCouncil",
+      "threshold": 9,
+      "members": 12
+    },
+    "dataAvailability": "ethereumBlobs",
+    "forceInclusion": false
+  },
+  {
+    "name": "Scroll",
+    "stage": 0,
+    "proofSystem": "validity",
+    "permissionlessProving": false,
+    "exitWindowDays": 0,
+    "upgrades": {
+      "type": "multisig"
+    },
+    "dataAvailability": "ethereumBlobs",
+    "forceInclusion": true
+  }
+]

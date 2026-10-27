@@ -1,0 +1,7 @@
+Rank  Rollup        Stage  Score
+1     Arbitrum One  1      85
+2     OP Mainnet    1      75
+3     Base          1      70
+4     Starknet      1      65
+5     ZKsync Era    0      50
+6     Scroll        0      45

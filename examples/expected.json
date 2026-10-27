@@ -1,0 +1,372 @@
+[
+  {
+    "rollup": {
+      "name": "Arbitrum One",
+      "stage": 1,
+      "proofSystem": "fraud",
+      "permissionlessProving": true,
+      "exitWindowDays": 10,
+      "upgrades": {
+        "type": "securityCouncil",
+        "threshold": 9,
+        "members": 12
+      },
+      "dataAvailability": "ethereumBlobs",
+      "forceInclusion": true
+    },
+    "score": 85,
+    "factors": [
+      {
+        "factor": "stage",
+        "points": 10,
+        "maxPoints": 20,
+        "reason": "L2BEAT stage 1: stage 0 earns 0, stage 1 earns 10, stage 2 earns 20, so 10 points."
+      },
+      {
+        "factor": "proofSystem",
+        "points": 20,
+        "maxPoints": 20,
+        "reason": "Proof system 'fraud': live fraud proofs earn 20 points."
+      },
+      {
+        "factor": "permissionlessProving",
+        "points": 10,
+        "maxPoints": 10,
+        "reason": "Permissionless proving is true with live 'fraud' proofs: earns 10 points."
+      },
+      {
+        "factor": "exitWindowDays",
+        "points": 10,
+        "maxPoints": 15,
+        "reason": "Exit window of 10 days: at least 7 and below 30 days earns 10 points."
+      },
+      {
+        "factor": "upgrades",
+        "points": 15,
+        "maxPoints": 15,
+        "reason": "Security council with threshold 9 of 12: ratio at least 3/4 earns 15 points."
+      },
+      {
+        "factor": "dataAvailability",
+        "points": 10,
+        "maxPoints": 10,
+        "reason": "Data availability 'ethereumBlobs': data posted to Ethereum earns 10 points."
+      },
+      {
+        "factor": "forceInclusion",
+        "points": 10,
+        "maxPoints": 10,
+        "reason": "Force inclusion is true: users can force transactions past a censoring sequencer, earning 10 points."
+      }
+    ],
+    "rank": 1
+  },
+  {
+    "rollup": {
+      "name": "OP Mainnet",
+      "stage": 1,
+      "proofSystem": "fraud",
+      "permissionlessProving": true,
+      "exitWindowDays": 0,
+      "upgrades": {
+        "type": "securityCouncil",
+        "threshold": 10,
+        "members": 13
+      },
+      "dataAvailability": "ethereumBlobs",
+      "forceInclusion": true
+    },
+    "score": 75,
+    "factors": [
+      {
+        "factor": "stage",
+        "points": 10,
+        "maxPoints": 20,
+        "reason": "L2BEAT stage 1: stage 0 earns 0, stage 1 earns 10, stage 2 earns 20, so 10 points."
+      },
+      {
+        "factor": "proofSystem",
+        "points": 20,
+        "maxPoints": 20,
+        "reason": "Proof system 'fraud': live fraud proofs earn 20 points."
+      },
+      {
+        "factor": "permissionlessProving",
+        "points": 10,
+        "maxPoints": 10,
+        "reason": "Permissionless proving is true with live 'fraud' proofs: earns 10 points."
+      },
+      {
+        "factor": "exitWindowDays",
+        "points": 0,
+        "maxPoints": 15,
+        "reason": "Exit window of 0 days: no exit window (0 days) earns 0 points."
+      },
+      {
+        "factor": "upgrades",
+        "points": 15,
+        "maxPoints": 15,
+        "reason": "Security council with threshold 10 of 13: ratio at least 3/4 earns 15 points."
+      },
+      {
+        "factor": "dataAvailability",
+        "points": 10,
+        "maxPoints": 10,
+        "reason": "Data availability 'ethereumBlobs': data posted to Ethereum earns 10 points."
+      },
+      {
+        "factor": "forceInclusion",
+        "points": 10,
+        "maxPoints": 10,
+        "reason": "Force inclusion is true: users can force transactions past a censoring sequencer, earning 10 points."
+      }
+    ],
+    "rank": 2
+  },
+  {
+    "rollup": {
+      "name": "Base",
+      "stage": 1,
+      "proofSystem": "fraud",
+      "permissionlessProving": true,
+      "exitWindowDays": 0,
+      "upgrades": {
+        "type": "securityCouncil",
+        "threshold": 8,
+        "members": 11
+      },
+      "dataAvailability": "ethereumBlobs",
+      "forceInclusion": true
+    },
+    "score": 70,
+    "factors": [
+      {
+        "factor": "stage",
+        "points": 10,
+        "maxPoints": 20,
+        "reason": "L2BEAT stage 1: stage 0 earns 0, stage 1 earns 10, stage 2 earns 20, so 10 points."
+      },
+      {
+        "factor": "proofSystem",
+        "points": 20,
+        "maxPoints": 20,
+        "reason": "Proof system 'fraud': live fraud proofs earn 20 points."
+      },
+      {
+        "factor": "permissionlessProving",
+        "points": 10,
+        "maxPoints": 10,
+        "reason": "Permissionless proving is true with live 'fraud' proofs: earns 10 points."
+      },
+      {
+        "factor": "exitWindowDays",
+        "points": 0,
+        "maxPoints": 15,
+        "reason": "Exit window of 0 days: no exit window (0 days) earns 0 points."
+      },
+      {
+        "factor": "upgrades",
+        "points": 10,
+        "maxPoints": 15,
+        "reason": "Security council with threshold 8 of 11: ratio at least 2/3 but below 3/4 earns 10 points."
+      },
+      {
+        "factor": "dataAvailability",
+        "points": 10,
+        "maxPoints": 10,
+        "reason": "Data availability 'ethereumBlobs': data posted to Ethereum earns 10 points."
+      },
+      {
+        "factor": "forceInclusion",
+        "points": 10,
+        "maxPoints": 10,
+        "reason": "Force inclusion is true: users can force transactions past a censoring sequencer, earning 10 points."
+      }
+    ],
+    "rank": 3
+  },
+  {
+    "rollup": {
+      "name": "Starknet",
+      "stage": 1,
+      "proofSystem": "validity",
+      "permissionlessProving": false,
+      "exitWindowDays": 7,
+      "upgrades": {
+        "type": "securityCouncil",
+        "threshold": 9,
+        "members": 12
+      },
+      "dataAvailability": "ethereumBlobs",
+      "forceInclusion": false
+    },
+    "score": 65,
+    "factors": [
+      {
+        "factor": "stage",
+        "points": 10,
+        "maxPoints": 20,
+        "reason": "L2BEAT stage 1: stage 0 earns 0, stage 1 earns 10, stage 2 earns 20, so 10 points."
+      },
+      {
+        "factor": "proofSystem",
+        "points": 20,
+        "maxPoints": 20,
+        "reason": "Proof system 'validity': live validity proofs earn 20 points."
+      },
+      {
+        "factor": "permissionlessProving",
+        "points": 0,
+        "maxPoints": 10,
+        "reason": "Permissionless proving is false (proof system 'validity'): only permissionless proving with live proofs earns 10, so 0 points."
+      },
+      {
+        "factor": "exitWindowDays",
+        "points": 10,
+        "maxPoints": 15,
+        "reason": "Exit window of 7 days: at least 7 and below 30 days earns 10 points."
+      },
+      {
+        "factor": "upgrades",
+        "points": 15,
+        "maxPoints": 15,
+        "reason": "Security council with threshold 9 of 12: ratio at least 3/4 earns 15 points."
+      },
+      {
+        "factor": "dataAvailability",
+        "points": 10,
+        "maxPoints": 10,
+        "reason": "Data availability 'ethereumBlobs': data posted to Ethereum earns 10 points."
+      },
+      {
+        "factor": "forceInclusion",
+        "points": 0,
+        "maxPoints": 10,
+        "reason": "Force inclusion is false: users cannot force transactions past a censoring sequencer, so 0 points."
+      }
+    ],
+    "rank": 4
+  },
+  {
+    "rollup": {
+      "name": "ZKsync Era",
+      "stage": 0,
+      "proofSystem": "validity",
+      "permissionlessProving": false,
+      "exitWindowDays": 5,
+      "upgrades": {
+        "type": "securityCouncil",
+        "threshold": 6,
+        "members": 8
+      },
+      "dataAvailability": "ethereumBlobs",
+      "forceInclusion": false
+    },
+    "score": 50,
+    "factors": [
+      {
+        "factor": "stage",
+        "points": 0,
+        "maxPoints": 20,
+        "reason": "L2BEAT stage 0: stage 0 earns 0, stage 1 earns 10, stage 2 earns 20, so 0 points."
+      },
+      {
+        "factor": "proofSystem",
+        "points": 20,
+        "maxPoints": 20,
+        "reason": "Proof system 'validity': live validity proofs earn 20 points."
+      },
+      {
+        "factor": "permissionlessProving",
+        "points": 0,
+        "maxPoints": 10,
+        "reason": "Permissionless proving is false (proof system 'validity'): only permissionless proving with live proofs earns 10, so 0 points."
+      },
+      {
+        "factor": "exitWindowDays",
+        "points": 5,
+        "maxPoints": 15,
+        "reason": "Exit window of 5 days: more than 0 and below 7 days earns 5 points."
+      },
+      {
+        "factor": "upgrades",
+        "points": 15,
+        "maxPoints": 15,
+        "reason": "Security council with threshold 6 of 8: ratio at least 3/4 earns 15 points."
+      },
+      {
+        "factor": "dataAvailability",
+        "points": 10,
+        "maxPoints": 10,
+        "reason": "Data availability 'ethereumBlobs': data posted to Ethereum earns 10 points."
+      },
+      {
+        "factor": "forceInclusion",
+        "points": 0,
+        "maxPoints": 10,
+        "reason": "Force inclusion is false: users cannot force transactions past a censoring sequencer, so 0 points."
+      }
+    ],
+    "rank": 5
+  },
+  {
+    "rollup": {
+      "name": "Scroll",
+      "stage": 0,
+      "proofSystem": "validity",
+      "permissionlessProving": false,
+      "exitWindowDays": 0,
+      "upgrades": {
+        "type": "multisig"
+      },
+      "dataAvailability": "ethereumBlobs",
+      "forceInclusion": true
+    },
+    "score": 45,
+    "factors": [
+      {
+        "factor": "stage",
+        "points": 0,
+        "maxPoints": 20,
+        "reason": "L2BEAT stage 0: stage 0 earns 0, stage 1 earns 10, stage 2 earns 20, so 0 points."
+      },
+      {
+        "factor": "proofSystem",
+        "points": 20,
+        "maxPoints": 20,
+        "reason": "Proof system 'validity': live validity proofs earn 20 points."
+      },
+      {
+        "factor": "permissionlessProving",
+        "points": 0,
+        "maxPoints": 10,
+        "reason": "Permissionless proving is false (proof system 'validity'): only permissionless proving with live proofs earns 10, so 0 points."
+      },
+      {
+        "factor": "exitWindowDays",
+        "points": 0,
+        "maxPoints": 15,
+        "reason": "Exit window of 0 days: no exit window (0 days) earns 0 points."
+      },
+      {
+        "factor": "upgrades",
+        "points": 5,
+        "maxPoints": 15,
+        "reason": "Upgradable by a multisig: earns 5 points."
+      },
+      {
+        "factor": "dataAvailability",
+        "points": 10,
+        "maxPoints": 10,
+        "reason": "Data availability 'ethereumBlobs': data posted to Ethereum earns 10 points."
+      },
+      {
+        "factor": "forceInclusion",
+        "points": 10,
+        "maxPoints": 10,
+        "reason": "Force inclusion is true: users can force transactions past a censoring sequencer, earning 10 points."
+      }
+    ],
+    "rank": 6
+  }
+]
